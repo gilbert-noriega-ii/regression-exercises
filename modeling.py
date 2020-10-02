@@ -59,9 +59,9 @@ def rfe(predictors, target, number_of_features):
     #Those are the features we want.)
     #Transform our X dataframe to include only 
     #the 'number_of_features' that performed the best
-    X_rfe = rfe.fit_transform(predictors, target)
+    rfe.fit_transform(predictors, target)
 
-    #Create a mask to hold a list of the features that remain
+    #Create a mask to hold a list of the features that were selected or not
     mask = rfe.support_
 
     #We get a list of the feature names selected from 
