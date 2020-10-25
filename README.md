@@ -1,5 +1,7 @@
 # Regression Repository
 
+<img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201003/20100315144150-1_0.jpg?itok=xksoTT8q">
+
 ## Goals
 
 1. **Acquisition-Gather:** Gather structured data from SQL to Pandas
